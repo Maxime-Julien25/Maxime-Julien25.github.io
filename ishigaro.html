@@ -12,7 +12,7 @@
     body {
         margin: 0;
     }
-    
+
     .bleu {
         background-color: blue;
         height: 100vh;
@@ -30,12 +30,40 @@
         height: 100vh;
         width: 100%;
     }
+
+    @media screen and (min-width: 700px) {
+        .bleu {
+            background-color: blue;
+            height: 700px;
+            width: 100%;
+        }
+
+        .vert {
+            background-color: green;
+            height: 700px;
+            width: 100%;
+        }
+
+        .violet {
+            background-color: purple;
+            height: 700px;
+            width: 100%;
+        }
+    }
+
+
+    button {
+        position: absolute;
+        margin-top: 95vh;
+        left: 50%;
+    }
 </style>
 
 <body>
 
-    <div >
-        <div class="bleu"></div>
+    <div>
+        <div class="bleu">
+            <button>Coucou les loulous</button></div>
         <div class="vert"></div>
         <div class="violet"></div>
     </div>
